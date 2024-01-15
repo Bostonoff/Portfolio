@@ -15,7 +15,7 @@ const Footer = () => {
         </div>
         <div className="flex items-center">
           <a
-            href="https://www.fiverr.com/codeworthy"
+            href="https://github.com/Bostonoff"
             target="_blank"
             rel="noreferrer">
             Made with ❤️ by <span className="font-bold">Bostonoff</span>
