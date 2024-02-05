@@ -1,6 +1,6 @@
-export const NAME = "Muhammad Bostonov";
+export const NAME = "Mukhammad Bustonov";
 
-export const DESIGNATION = `Front End Developer | Student Of TUIT`;
+export const DESIGNATION = `Frontend Developer | Student Of TUIT`;
 
 export const DETAILS = {
   Residence: "Uzbekistan",
@@ -10,12 +10,12 @@ export const DETAILS = {
 
 export const SKILLS = [
   {
-    title: "Frontend Developer",
+    title: "Frontend Development",
     level: "75%",
   },
   {
     title: "React Developer",
-    level: "93%",
+    level: "90%",
   },
   // {
   //   title: 'Desktop Application Developer',
@@ -27,7 +27,7 @@ export const SKILLS = [
   },
   {
     title: "Technical Engineer",
-    level: "65%",
+    level: "75%",
   },
 ];
 
@@ -38,11 +38,11 @@ export const TECH_STACK = [
   "Bootstrap",
   "JavaScript",
   "AOS JS",
-  "React Bootstarp",
-  "ReactJS",
+  "React Bootstrap",
+  "React",
   "Vite",
   "Ahooks",
-  "NextJS",
+  "Next.js",
   "TypeScript",
   "NodeJS",
   "Redux",
