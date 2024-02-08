@@ -3,10 +3,10 @@ const background = [
     eduCards: [
       {
         id: 0,
-        title: "Academic Lyceum at JDPI",
-        degree: "Economics",
+        title: "Academic Lyceum ('Sayiljoy') at JDPI",
+        degree: "Exact Sciences",
         detail:
-          "Studied various aspects of economics including microeconomics, macroeconomics, economic theories, market analysis, and financial management.",
+          "Studied various aspects of economics including microeconomics, macroeconomics, economic theories, market analysis, and financial management within the framework of the exact sciences curriculum. Additionally, delved into mathematical methods, statistics, and data analysis techniques pertinent to economic analysis. Developed proficiency in utilizing computer technologies and analytical tools during the course of study",
         year: "2016-2019",
       },
       {
@@ -19,7 +19,7 @@ const background = [
       },
       {
         id: 1,
-        title: "Tashkent University of Information Technologies",
+        title: "Tashkent University of Information Technologies-(TUIT)",
         degree: "BS, Mobile communication technologies",
         detail:
           "Though my studies primarily focused on mobile communication technologies, the skills and knowledge acquired during my university years significantly contributed to my overall understanding of technology. These studies have complemented my journey into the Fronted sphere by providing a strong technical foundation, enhancing my grasp of software architecture, and fostering problem-solving abilities that are transferable across various tech domains.",
@@ -58,7 +58,7 @@ const background = [
       {
         id: 3,
         title: "Sammi",
-        role: "Fronted Developer",
+        role: "Frontend Developer",
         url: "https://sammi.ac/",
         desc: "Continuously refining my skills as a frontend developer, I specialize in crafting user interfaces for various web applications.",
         year: "01/2024 - Present",

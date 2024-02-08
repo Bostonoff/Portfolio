@@ -15,19 +15,11 @@ const recommendationCard = [
     designation: "Data Scientist | Machine Learning Engineer",
     view: "I wholeheartedly recommend Muhammad as a talented React frontend developer with an incredible flair for UI/UX design. His proficiency in Node.js further enhances his capabilities, allowing him to build robust and scalable applications. Muhammad's attention to detail, problem-solving skills, and dedication to delivering exceptional results make him a valuable addition to any development team.",
   },
-  // {
-  //   id: 2,
-  //   name: 'Nasir Khan',
-  //   image: "images/nasir.jpg",
-  //   designation: 'MERN | JavaScript | Tailwind | Sass | Bootstrap',
-  //   view: "I wholeheartedly recommend Osama as a talented React frontend developer with an incredible flair for UI/UX design. His proficiency in Node.js further enhances his capabilities, allowing him to build robust and scalable applications. Osama's attention to detail, problem-solving skills, and dedication to delivering exceptional results make him a valuable addition to any development team.",
-  //   linkednURL: "https://www.linkedin.com/in/nasirkhan22/"
-  // },
   {
     id: 2,
     name: "Muhammad",
     image: "images/muhammad.jpeg",
-    designation: "MERN Stack Developer at Productbox",
+    designation: "MERN Stack Developer",
     view: "I highly recommend Muhammad for web frontend development positions. Their expertise in ReactJS and Next.js, combined with their professionalism and dedication, make them an invaluable asset to any team.",
   },
 ];
