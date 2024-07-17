@@ -28,7 +28,7 @@ const portfolio = [
     id: 1,
     projectName: "Udevs",
     url: "https://udevs-two.vercel.app/",
-    image: "projects/img(0-0).jpg",
+    image: "projects/img(0-0).png",
     projectDetail:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam corrupti aut veritatis, adipisci natus optio dolores cum rem? Aut perferendis fugit, eos rerum totam aspernatur iure alias temporibus ipsa perspiciatis!",
     technologiesUsed: [
