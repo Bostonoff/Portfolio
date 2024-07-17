@@ -26,6 +26,23 @@ const portfolio = [
   },
   {
     id: 1,
+    projectName: "Udevs",
+    url: "https://udevs-two.vercel.app/",
+    image: "projects/img(0-0).jpg",
+    projectDetail:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam corrupti aut veritatis, adipisci natus optio dolores cum rem? Aut perferendis fugit, eos rerum totam aspernatur iure alias temporibus ipsa perspiciatis!",
+    technologiesUsed: [
+      {
+        tech: "ReactJS",
+      },
+      {
+        tech: "Ant Design",
+      },
+      { tech: "AOS" },
+    ],
+  },
+  {
+    id: 19,
     projectName: "YouTube Clone",
     url: "https://youtube-clone-two-indol.vercel.app/",
     image: "projects/img(2-2).jpg",
