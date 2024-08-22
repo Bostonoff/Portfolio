@@ -22,16 +22,24 @@ const background = [
         title: "Tashkent University of Information Technologies-(TUIT)",
         degree: "BS, Mobile communication technologies",
         detail:
-          "Though my studies primarily focused on mobile communication technologies, the skills and knowledge acquired during my university years significantly contributed to my overall understanding of technology. These studies have complemented my journey into the Fronted sphere by providing a strong technical foundation, enhancing my grasp of software architecture, and fostering problem-solving abilities that are transferable across various tech domains.",
-        year: "2020-Present",
+          "Though my studies primarily focused on mobile communication technologies, the skills and knowledge acquired during my university years significantly contributed to my overall understanding of technology. These studies have complemented my journey into the Frontend sphere by providing a strong technical foundation, enhancing my grasp of software architecture, and fostering problem-solving abilities that are transferable across various tech domains.",
+        year: "2020-2024",
       },
       {
         id: 3,
         title: "Inter-Nation",
         degree: "English course",
         detail:
-          "Currently enrolled in an English course at Inter-Nation, I'm actively honing my language skills. At my current pace, I've progressed to an upper-intermediate level. This pursuit supplements my technical education, enhancing my ability to engage with diverse audiences and communicate effectively within the tech sphere.",
-        year: "2022-Present",
+          "I previously studied at Inter-Nation, where I focused on improving my English skills up to the IELTS level. This foundational experience significantly boosted my language abilities, which I later built upon in my subsequent studies.",
+        year: "2022-2023",
+      },
+      {
+        id: 4,
+        title: "Forward School",
+        degree: "IELTS Preparation Course",
+        detail:
+          "I completed an IELTS preparation course at Forward School, where I further refined my English skills. This rigorous training equipped me with the language proficiency required to excel in both academic and professional settings.",
+        year: "2023-2024",
       },
     ],
   },
