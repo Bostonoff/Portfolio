@@ -1,6 +1,6 @@
 export const NAME = "Mukhammad Bustonov";
 
-export const DESIGNATION = `Frontend Developer | BS TUIT | Student of ADA`;
+export const DESIGNATION = `Frontend Developer | BS TUIT |`;
 
 export const DETAILS = {
   Residence: "Uzbekistan",
