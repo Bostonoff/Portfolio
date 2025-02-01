@@ -2,6 +2,8 @@ import { AiFillCopyrightCircle } from "react-icons/ai";
 import { MdMail } from "react-icons/md";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();  // Get the current year dynamically
+
   return (
     <div className="mt-4 mb-10 lg:mb-0">
       <div className="flex h-10 items-center justify-between text-xs font-normal text-LightGray py-4 px-2 md:px-4 w-full bg-MidNightBlack">
@@ -9,14 +11,14 @@ const Footer = () => {
           <div className="mr-1 text-base">
             <AiFillCopyrightCircle />
           </div>
-          <span>2024 All Rights Reserved.</span>
+          <span>{currentYear} All Rights Reserved.</span> {/* Display current year */}
         </div>
         <div className="flex items-center">
           <a
             href="https://github.com/Bostonoff"
             target="_blank"
             rel="noreferrer">
-            Made with ❤️ by <span className="font-bold">Bostonoff</span>
+            Made with ❤️ by <span className="font-bold">Bustonov</span>
           </a>
         </div>
         <div className="block md:flex items-center">

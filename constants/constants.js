@@ -71,4 +71,5 @@ export const SOCIAL_LINKS = {
   GITHUB: "https://github.com/Bostonoff",
   TELEGRAM: "https://t.me/melloalp",
   GMAIL: "mailto:muhammadboston1101@gmail.com",
+  LINKEDIN:"www.linkedin.com/in/mukhammad-bustonov",
 };

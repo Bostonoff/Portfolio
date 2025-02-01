@@ -14,7 +14,10 @@ const Contact = () => {
       </div>
       <div className='flex flex-col'>
         <span className='text-Snow text-xs font-bold'>Phone</span>
-        <span className='text-xs text-gray-600'>{CONTACTS.PHONE}</span>
+        <span className='text-xs text-gray-600 flex space-x-2'>
+          <span>{CONTACTS.PHONE[0]}</span> 
+          <span>|</span>
+          <span>{CONTACTS.PHONE[1]}</span></span>
       </div>
     </div>
   );

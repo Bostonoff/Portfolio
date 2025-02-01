@@ -16,6 +16,7 @@ import Skills from "./Skills";
 import Image from "next/image";
 import { NAME, DESIGNATION, SOCIAL_LINKS } from "../../../constants/constants";
 import maga from "../../../public/images/maga.jpg";
+import { BsLinkedin } from "react-icons/bs";
 
 const Intro = () => {
   return (
@@ -70,6 +71,13 @@ const Intro = () => {
           rel="noreferrer"
           className="">
           <FaTelegram />
+        </Link>
+        <Link
+          href={SOCIAL_LINKS.LINKEDIN}
+          target="_blank"
+          rel="noreferrer"
+          className="">
+          <BsLinkedin />
         </Link>
       </div>
     </>

@@ -11,13 +11,13 @@ const Languages = () => {
       if (uzb < 100) {
         setUzbek((prevCount) => prevCount + 1);
       }
-      if (rus < 90) {
+      if (rus < 97) {
         setRus((prevCount) => prevCount + 1);
       }
-      if (english < 85) {
+      if (english < 90) {
         setEnglish((prevCount) => prevCount + 1);
       }
-    }, 30);
+    }, 70);
 
     return () => clearInterval(timer);
   }, [uzb, rus, english]);
