@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 import { useState } from "react";
 import { useQuery } from "react-query";
 import BannerLayout from "../components/Common/BannerLayout";

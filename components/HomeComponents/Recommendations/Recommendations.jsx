@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 import RecommendationCard from "./RecommendationCard"
 import axios from "axios";
 import { useQuery } from "react-query";
@@ -18,6 +19,7 @@ const Recommendations = () => {
 
                 {isLoading ?
                     [1, 2, 3, 4].map(() => (
+             
                         <ParagraphSkeleton className={"p-8 h-full w-full relative"} />
                     ))
                     :

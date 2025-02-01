@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 import { useState } from "react";
 import Edu_Card from "../components/Background/Edu_Card";
 import Exp_Card from "../components/Background/Exp_Card";

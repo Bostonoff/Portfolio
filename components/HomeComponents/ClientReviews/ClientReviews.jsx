@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 import ReviewCard from "./ReviewCard"
 import axios from "axios";
 import { useQuery } from "react-query";

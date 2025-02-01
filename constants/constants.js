@@ -1,21 +1,25 @@
 export const NAME = "Mukhammad Bustonov";
 
-export const DESIGNATION = `Frontend Developer | BS TUIT |`;
+export const DESIGNATION = `BS TUIT | Front-End Dev |  iOS Dev | Student at ADA @Unina Federico II`;
 
 export const DETAILS = {
-  Residence: "Uzbekistan",
-  City: "Tashkent",
-  Age: "23",
+  Residence: "Italy",
+  City: "Naples",
+  Age: "24",
 };
 
 export const SKILLS = [
   {
     title: "Frontend Development",
-    level: "80%",
+    level: "85%",
   },
   {
-    title: "React Developer",
+    title: "React",
     level: "90%",
+  },
+  {
+    title: "iOS Development",
+    level: "60%",
   },
   // {
   //   title: 'Desktop Application Developer',
@@ -37,6 +41,7 @@ export const TECH_STACK = [
   "SCSS",
   "Bootstrap",
   "JavaScript",
+  "SwiftUI",
   "AOS JS",
   "React Bootstrap",
   "React",
@@ -54,11 +59,13 @@ export const TECH_STACK = [
   "Git",
   "GitHub",
   "Figma",
+  "Skecth",
 ];
 
 export const CONTACTS = {
   EMAIL: "muhammadboston1101@gmail.com",
-  PHONE: "+998(94) 602-20-90",
+  PHONE: ["+39 350 9900997",
+    "+998(94) 602-20-90"]
 };
 export const SOCIAL_LINKS = {
   GITHUB: "https://github.com/Bostonoff",

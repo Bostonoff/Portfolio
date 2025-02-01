@@ -207,7 +207,7 @@ const Contact = () => {
           <a
             className="underline text-Snow"
             target="_blank"
-            href="https://github.com/Bostonoff">
+            href="https://github.com/Bostonoff" rel="noreferrer">
             Be the one to integrate this!
           </a>
         </div>
