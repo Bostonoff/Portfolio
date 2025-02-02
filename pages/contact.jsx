@@ -1,12 +1,13 @@
 import { useState } from "react";
 import BannerLayout from "../components/Common/BannerLayout";
-import { FaGithub, FaTelegram, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaLinkedinIn, FaTelegram, } from "react-icons/fa";
 import { SiUpwork } from "react-icons/si";
 import { HiMail, HiUser } from "react-icons/hi";
-import { BsChatTextFill } from "react-icons/bs";
+import { BsChatTextFill, BsLinkedin } from "react-icons/bs";
 import Fiverr_Icon from "../components/Fiverr_Icon";
 import Footer from "../components/Footer";
 import { Modal } from "antd";
+import { ImLinkedin2 } from "react-icons/im";
 
 const Contact = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -42,16 +43,20 @@ const Contact = () => {
             <div className="card_stylings w-full md:w-1/2 p-5 md:p-6 lg:p-8 flex flex-col gap-y-4">
               <div className="flex justify-between items-center">
                 <span className="md:text-base">Country:</span>
-                <span className="text-LightGray md:text-sm">Uzbekistan</span>
+                <span className="text-LightGray md:text-sm">Italy</span>
               </div>
               <div className="flex justify-between items-center">
                 <span className="md:text-base">City:</span>
-                <span className="text-LightGray md:text-sm">Tashkent</span>
+                <span className="text-LightGray md:text-sm">Naples</span>
               </div>
               <div className="flex justify-between items-center">
+                <span className="md:text-base">Current Title:</span>
+                <span className="text-LightGray md:text-sm"> Student at  Apple Developer Academy @Unina Federico II </span>
+              </div>
+              {/* <div className="flex justify-between items-center">
                 <span className="md:text-base">Company:</span>
                 <span className="text-LightGray md:text-sm">Freelancer</span>
-              </div>
+              </div> */}
             </div>
             <div className="card_stylings rounded-xl w-full md:w-1/2 p-5 md:p-6 lg:p-8 flex flex-col gap-y-4">
               <div className="flex justify-between items-center">
@@ -75,15 +80,22 @@ const Contact = () => {
                 </span>
               </div>
               <div className="flex justify-between items-center">
-                <span className="md:text-base">Phone:</span>
+                <span className="md:text-base">Phones:</span>
                 <span className="text-LightGray text-sm">
-                  <a href="tel:+998946022090">+998(94) 602-20-90</a>
+                <a href="tel:+393509900997">+39 350 9900997</a> | <a href="tel:+998946022090">+998(94) 602-20-90</a>
                 </span>
               </div>
             </div>
           </div>
         </div>
         <div className="h-16 w-full card_stylings text-xl sm:text-3xl flex gap-x-8 sm:gap-x-16 items-center justify-center text-Snow">
+        <a
+            className="hover:scale-125 ease-in-out duration-700"
+            href="https://www.linkedin.com/in/mukhammad-bustonov/"
+            target="_blank"
+            rel="noreferrer">
+            <FaLinkedinIn />
+          </a>
           <a
             className="hover:scale-125 ease-in-out duration-700"
             href="mailto:muhammadboston1101@gmail.com"

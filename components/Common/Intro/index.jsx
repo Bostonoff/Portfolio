@@ -3,6 +3,7 @@ import {
   FaDownload,
   FaFacebook,
   FaGithub,
+  FaLinkedinIn,
   FaTelegram,
   FaTwitter,
 } from "react-icons/fa";
@@ -77,7 +78,7 @@ const Intro = () => {
           target="_blank"
           rel="noreferrer"
           className="">
-          <BsLinkedin />
+          <FaLinkedinIn />
         </Link>
       </div>
     </>
