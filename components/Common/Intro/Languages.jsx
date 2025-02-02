@@ -17,7 +17,7 @@ const Languages = () => {
       if (english < 90) {
         setEnglish((prevCount) => prevCount + 1);
       }
-    }, 70);
+    }, 44);
 
     return () => clearInterval(timer);
   }, [uzb, rus, english]);
