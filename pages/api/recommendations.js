@@ -29,7 +29,7 @@ const recommendationCard = [
     name: "Robert",
     image: "images/adam.png",
     designation: "Data Scientist | Machine Learning Engineer",
-    view: "I wholeheartedly recommend Mukhammad as a talented React frontend developer with an incredible flair for UI/UX design. His proficiency in Node.js further enhances his capabilities, allowing him to build robust and scalable applications. Mukhammad's attention to detail, problem-solving skills, and dedication to delivering exceptional results make him a valuable addition to any development team.",
+    view: "I wholeheartedly recommend Mukhammad as a talented React frontend developer with an incredible flair for UI/UX design. Mukhammad's attention to detail, problem-solving skills, and dedication to delivering exceptional results make him a valuable addition to any development team.",
   },
   {
     id: 4,
