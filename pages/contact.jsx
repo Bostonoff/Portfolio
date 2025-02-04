@@ -1,13 +1,13 @@
 import { useState } from "react";
 import BannerLayout from "../components/Common/BannerLayout";
-import { FaGithub, FaLinkedin, FaLinkedinIn, FaTelegram, } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaTelegram, } from "react-icons/fa";
 import { SiUpwork } from "react-icons/si";
 import { HiMail, HiUser } from "react-icons/hi";
-import { BsChatTextFill, BsLinkedin } from "react-icons/bs";
+import { BsChatTextFill } from "react-icons/bs";
 import Fiverr_Icon from "../components/Fiverr_Icon";
 import Footer from "../components/Footer";
 import { Modal } from "antd";
-import { ImLinkedin2 } from "react-icons/im";
+// import { ImLinkedin2 } from "react-icons/im";
 
 const Contact = () => {
   const [isOpen, setIsOpen] = useState(false);

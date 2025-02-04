@@ -6,11 +6,12 @@ const Banner = () => {
     return (
         <BannerLayout>
             <div className="absolute inset-0 z-20 flex flex-col items-center py-6 justify-center w-full h-full bg-gradient-to-t from-MidNightBlack">
-                <div className="bg-LightGray/10 w-[95%] h-[90%] px-4 py-2 rounded-xl overflow-hidden flex md:block">
+                <div className="w-[95%] h-[90%] px-4 py-2 rounded-xl overflow-hidden flex md:block" style={{ backgroundColor: 'rgba(40, 5, 84, 0.1)' }}>
+
                     <div className="flex items-center md:items-center md:justify-around">
                         <div className="">
                             <div className="">
-                                <h1 className="text-3xl sm:text-4xl xl:text-5xl text-Snow font-bold">Hello, Check This Out!</h1>
+                                <h1 className="text-3xl sm:text-4xl xl:text-5xl text-Snow font-bold">Pixels Gone Wild, Code Unleashed!</h1>
                             </div>
                             <div className="">
                                 <div className=" py-4 font-cascadia-normal text-Snow pb-4 text-xs h-20 lg:h-auto">
@@ -32,7 +33,7 @@ const Banner = () => {
                             {/* <Link to='intro' spy={true} smooth={true} duration={500} offset={-50} className="button">Explore</Link> */}
                         </div>
                         <div className="w-48 h-52 relative hidden md:block">
-                            <img className='absolute top-8 w-full h-full' src="images/emoji.png" alt="emoji" />
+                            <img className='absolute top-8 w-full h-full object-cover rounded-tl-[100px] rounded-tr-[100px] rounded-bl-[10px] rounded-br-[10px] shadow-[0px_0px_50px_#030005]' src="images/sas.jpg" alt="emoji" />
                         </div>
                     </div>
                 </div>

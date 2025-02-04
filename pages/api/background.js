@@ -61,7 +61,7 @@ const background = [
         role: "Frontend Developer Intern",
         url: "https://online.pdp.uz/",
         desc: "Worked under the mentorship of lead developers to design and implement responsive user interfaces for educational platforms, improving performance and user engagement",
-        year: "2023- 2023",
+        year: "2022- 2023",
         location: "Tashkent, Uzbekistan",
       },
       {
