@@ -20,7 +20,7 @@ body {
       @apply bg-EveningBlack/95 rounded-xl hover:bg-gradient-to-br hover:from-Green/10 hover:to-indigo-600/5;
     }
     .button {
-      @apply bg-Green hover:bg-Green/70 transition rounded-xl text-MidNightBlack text-base font-medium  px-8 py-2;
+      @apply bg-Green hover:bg-Green/50 transition rounded-xl text-MidNightBlack text-base font-medium  px-8 py-2;
     }
     .input_stylings {
       @apply bg-DeepNightBlack text-SilverGray text-sm rounded-lg outline-none focus:ring-1 focus:ring-Green block w-full pl-10 p-2.5;

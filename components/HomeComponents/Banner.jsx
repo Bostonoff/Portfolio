@@ -33,7 +33,7 @@ const Banner = () => {
                             {/* <Link to='intro' spy={true} smooth={true} duration={500} offset={-50} className="button">Explore</Link> */}
                         </div>
                         <div className="w-48 h-52 relative hidden md:block">
-                            <img className='absolute top-8 w-full h-full object-cover rounded-tl-[100px] rounded-tr-[100px] rounded-bl-[10px] rounded-br-[10px] shadow-[0px_0px_50px_#030005]' src="images/sas.jpg" alt="emoji" />
+                            <img className='absolute top-8 w-full h-full object-cover rounded-tl-[100px] rounded-tr-[100px] rounded-bl-[0px] rounded-br-[0px] shadow-[0px_0px_50px_#030005]' src="images/sas.jpg" alt="emoji" />
                         </div>
                     </div>
                 </div>
