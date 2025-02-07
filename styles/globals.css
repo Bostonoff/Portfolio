@@ -85,7 +85,7 @@ body {
 
   .icon {
     animation-name: scale-icon;
-    animation-duration: 1s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
   }
@@ -95,7 +95,7 @@ body {
       transform: scale(1);
     }
     50% {
-      transform: scale(1.06);
+      transform: scale(1.05);
     }
     100% {
       transform: scale(1);

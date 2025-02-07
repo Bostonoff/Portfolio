@@ -1,4 +1,5 @@
 import Badge from "../Common/Badge"
+// import Image from "next/image"
 
 const PortfolioCard = ({ data }) => {
     return (

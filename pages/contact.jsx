@@ -191,7 +191,7 @@ const Contact = () => {
                   </div>
                 </div>
 
-                <div className="my-4">
+                <div className="my-4 ">
                   <button type="submit" className="button">
                     {" "}
                     SEND MESSAGE{" "}

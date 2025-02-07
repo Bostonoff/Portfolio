@@ -1,6 +1,6 @@
 import '../styles/globals.css'
-
 import Layout from './layout'
+
 import { QueryClient, QueryClientProvider } from 'react-query'
 
 const queryClient = new QueryClient()
