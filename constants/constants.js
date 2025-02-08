@@ -64,12 +64,11 @@ export const TECH_STACK = [
 
 export const CONTACTS = {
   EMAIL: "muhammadboston1101@gmail.com",
-  PHONE: ["+39 350 9900997",
-    "+998(94) 602-20-90"]
+  PHONE: ["+39 350 9900997", "+998(94) 602-20-90"],
 };
 export const SOCIAL_LINKS = {
   GITHUB: "https://github.com/Bostonoff",
   TELEGRAM: "https://t.me/melloalp",
   GMAIL: "mailto:muhammadboston1101@gmail.com",
-  LINKEDIN:"https://www.linkedin.com/in/mukhammad-bustonov/",
+  LINKEDIN: "https://www.linkedin.com/in/mukhammad-bustonov/",
 };

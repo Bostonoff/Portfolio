@@ -3,7 +3,7 @@ import Link from "next/link";
 const Download = ({ icon }) => {
   return (
     <Link
-      href="/Resume-BM.pdf" // Указываем путь без /public/
+      href="/CV-BM.pdf" // Указываем путь без /public/
       download // Указываем атрибут для скачивания
       target="_blank" // Открывает файл в новой вкладке
       rel="noopener noreferrer" // Безопасность

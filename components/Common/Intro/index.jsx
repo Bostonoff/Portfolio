@@ -1,11 +1,11 @@
 import Link from "next/link";
 import {
   FaDownload,
-  FaFacebook,
+  // FaFacebook,
   FaGithub,
   FaLinkedinIn,
   FaTelegram,
-  FaTwitter,
+  // FaTwitter,
 } from "react-icons/fa";
 import { HiMail } from "react-icons/hi";
 import Contact from "./Contact";
@@ -16,8 +16,10 @@ import Tools from "./Tools";
 import Skills from "./Skills";
 import Image from "next/image";
 import { NAME, DESIGNATION, SOCIAL_LINKS } from "../../../constants/constants";
-import sas from "../../../public/images/sas.jpg";
-import { BsLinkedin } from "react-icons/bs";
+// import sas from "../../../public/images/sas.jpg";
+import maga from "../../../public/images/maga.jpg";
+import SvgIcon from "./SvgIcon";
+// import { BsLinkedin } from "react-icons/bs";
 
 const Intro = () => {
   return (
@@ -26,12 +28,13 @@ const Intro = () => {
       <div className="headerr z-50 absolute bg-MidNightBlack backdrop-blur-sm inset-y-0 h-48 top-0 flex items-center justify-center w-full flex-col px-4 gap-y-4">
         <Image
           className="w-20 h-20 rounded-full object-cover"
-          src={sas}
+          src={maga}
           alt="profile picture"
         />
+
         <div className="flex flex-col items-center justify-center">
-          <span className="text-gray-300 text-base font-bold break-normal">
-            {NAME}
+          <span className="text-gray-300 text-base font-bold break-normal flex items-center gap-[5px]">
+            {NAME} <SvgIcon />
           </span>
           <span className="text-sm text-LightGray text-center mt-2">
             {DESIGNATION}
@@ -55,7 +58,8 @@ const Intro = () => {
           href={SOCIAL_LINKS.GITHUB}
           target="_blank"
           rel="noreferrer"
-          className="">
+          className=""
+        >
           <FaGithub />
         </Link>
 
@@ -63,21 +67,24 @@ const Intro = () => {
           href={SOCIAL_LINKS.GMAIL}
           target="_blank"
           rel="noreferrer"
-          className="">
+          className=""
+        >
           <HiMail />
         </Link>
         <Link
           href={SOCIAL_LINKS.TELEGRAM}
           target="_blank"
           rel="noreferrer"
-          className="">
+          className=""
+        >
           <FaTelegram />
         </Link>
         <Link
           href={SOCIAL_LINKS.LINKEDIN}
           target="_blank"
           rel="noreferrer"
-          className="">
+          className=""
+        >
           <FaLinkedinIn />
         </Link>
       </div>
