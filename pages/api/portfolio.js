@@ -394,6 +394,25 @@ const portfolio = [
       },
     ],
   },
+  {
+    id: 20,
+    projectName: "LingoVCT",
+    url: "https://github.com/Bostonoff/LingoVCT",
+    image: "projects/img(20-20).png",
+    projectDetail:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam corrupti aut veritatis, adipisci natus optio dolores cum rem? Aut perferendis fugit, eos rerum totam aspernatur iure alias temporibus ipsa perspiciatis!",
+    technologiesUsed: [
+      {
+        tech: "SwiftUI",
+      },
+      {
+        tech: "Xcode",
+      },
+      {
+        tech: "iOS Simulator",
+      },
+    ],
+  },
 ];
 export default function handler(req, res) {
   res.status(200).json(portfolio);
