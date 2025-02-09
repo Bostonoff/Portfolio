@@ -7,7 +7,7 @@ const PortfolioCard = ({ data }) => {
       <img
         src={data?.image}
         alt="portfolio img"
-        className="w-full object-cover opacity-70 h-32 sm:h-48 md:h-64"
+        className="w-full object-cover opacity-40 h-32 sm:h-48 md:h-64"
       />
       <div
         id="arrow"
