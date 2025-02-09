@@ -406,6 +406,28 @@ const portfolio = [
         tech: "SwiftUI",
       },
       {
+        tech: "OpenAI API",
+      },
+      {
+        tech: "Xcode",
+      },
+      {
+        tech: "iOS Simulator",
+      },
+    ],
+  },
+  {
+    id: 21,
+    projectName: "Meetopia",
+    url: "https://github.com/Bostonoff",
+    image: "projects/img(21-21).png",
+    projectDetail:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam corrupti aut veritatis, adipisci natus optio dolores cum rem? Aut perferendis fugit, eos rerum totam aspernatur iure alias temporibus ipsa perspiciatis!",
+    technologiesUsed: [
+      {
+        tech: "SwiftUI",
+      },
+      {
         tech: "Xcode",
       },
       {
