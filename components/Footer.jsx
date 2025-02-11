@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="mr-1 text-base">
             <AiFillCopyrightCircle />
           </div>
-          <span>{currentYear} All Rights Reserved.</span>{" "}
+          <span>{currentYear} All Rights Reserved</span>{" "}
           {/* Display current year */}
         </div>
         <div className="flex items-center">
