@@ -1,6 +1,6 @@
 import { useState } from "react";
 import BannerLayout from "../components/Common/BannerLayout";
-import { FaGithub, FaLinkedinIn, FaTelegram, } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaTelegram } from "react-icons/fa";
 import { SiUpwork } from "react-icons/si";
 import { HiMail, HiUser } from "react-icons/hi";
 import { BsChatTextFill } from "react-icons/bs";
@@ -51,7 +51,10 @@ const Contact = () => {
               </div>
               <div className="flex justify-between items-center">
                 <span className="md:text-base">Current Title:</span>
-                <span className="text-LightGray md:text-sm"> Student at  Apple Developer Academy @Unina Federico II </span>
+                <span className="text-LightGray md:text-sm">
+                  {" "}
+                  Student at  Apple Developer Academy @Unina Federico II{" "}
+                </span>
               </div>
               {/* <div className="flex justify-between items-center">
                 <span className="md:text-base">Company:</span>
@@ -74,7 +77,8 @@ const Contact = () => {
                     className="text-LightGray text-sm"
                     href="https://t.me/melloalp"
                     target="_blank"
-                    rel="noreferrer">
+                    rel="noreferrer"
+                  >
                     @melloalp
                   </a>
                 </span>
@@ -82,39 +86,44 @@ const Contact = () => {
               <div className="flex justify-between items-center">
                 <span className="md:text-base">Phones:</span>
                 <span className="text-LightGray text-sm">
-                <a href="tel:+393509900997">+39 350 9900997</a> | <a href="tel:+998946022090">+998(94) 602-20-90</a>
+                  <a href="tel:+393509900997">+39 350 9900997</a> |{" "}
+                  <a href="tel:+998946022090">+998(94) 602-20-90</a>
                 </span>
               </div>
             </div>
           </div>
         </div>
         <div className="h-16 w-full card_stylings text-xl sm:text-3xl flex gap-x-8 sm:gap-x-16 items-center justify-center text-Snow">
-        <a
+          <a
             className="hover:scale-125 ease-in-out duration-700"
             href="https://www.linkedin.com/in/mukhammad-bustonov/"
             target="_blank"
-            rel="noreferrer">
+            rel="noreferrer"
+          >
             <FaLinkedinIn />
           </a>
           <a
             className="hover:scale-125 ease-in-out duration-700"
             href="mailto:muhammadboston1101@gmail.com"
             target="_blank"
-            rel="noreferrer">
+            rel="noreferrer"
+          >
             <HiMail />
           </a>
           <a
             className="hover:scale-125 ease-in-out duration-700"
             href="https://github.com/Bostonoff"
             target="_blank"
-            rel="noreferrer">
+            rel="noreferrer"
+          >
             <FaGithub />
           </a>
           <a
             className="hover:scale-125 ease-in-out duration-700"
             href="https://t.me/melloalp"
             target="_blank"
-            rel="noreferrer">
+            rel="noreferrer"
+          >
             <FaTelegram />
           </a>
 
@@ -122,14 +131,16 @@ const Contact = () => {
             className="hover:scale-125 ease-in-out duration-700 hidden sm:block"
             href="https://www.fiverr.com"
             target="_blank"
-            rel="noreferrer">
+            rel="noreferrer"
+          >
             <Fiverr_Icon />
           </a>
           <a
             className="hover:scale-125 ease-in-out duration-700 text-2xl sm:text-4xl mt-1"
             href="https://www.upwork.com"
             target="_blank"
-            rel="noreferrer">
+            rel="noreferrer"
+          >
             <SiUpwork />
           </a>
         </div>
@@ -143,7 +154,8 @@ const Contact = () => {
                   <div className="userIcon relative mb-6">
                     <div
                       id="icon"
-                      className="absolute inset-y-0 left-0 flex items-center pl-3 text-xl pointer-events-none">
+                      className="absolute inset-y-0 left-0 flex items-center pl-3 text-xl pointer-events-none"
+                    >
                       <HiUser />
                     </div>
                     <input
@@ -160,7 +172,8 @@ const Contact = () => {
                   <div className="mailIcon relative mb-6">
                     <div
                       id="icon"
-                      className="absolute inset-y-0 left-0 flex items-center text-xl pl-3 pointer-events-none">
+                      className="absolute inset-y-0 left-0 flex items-center text-xl pl-3 pointer-events-none"
+                    >
                       <HiMail />
                     </div>
                     <input
@@ -177,7 +190,8 @@ const Contact = () => {
                   <div className="textIcon relative mb-6">
                     <div
                       id="icon"
-                      className="absolute top-3 left-0 flex items-center text-lg pl-3 pointer-events-none">
+                      className="absolute top-3 left-0 flex items-center text-lg pl-3 pointer-events-none"
+                    >
                       <BsChatTextFill />
                     </div>
                     <textarea
@@ -210,7 +224,8 @@ const Contact = () => {
         footer={null}
         closable={false}
         onOk={() => setIsOpen(false)}
-        onCancel={() => setIsOpen(false)}>
+        onCancel={() => setIsOpen(false)}
+      >
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-Green font-bold text-2xl mb-2">
             {errorMessage.includes("successfully") ? "Success" : "Error"}
@@ -219,8 +234,10 @@ const Contact = () => {
           <a
             className="underline text-Snow"
             target="_blank"
-            href="https://github.com/Bostonoff" rel="noreferrer">
-            Be the one to integrate this!
+            href="www.linkedin.com/in/mukhammad-bustonov"
+            rel="noreferrer"
+          >
+            Take the lead in integrating this!
           </a>
         </div>
       </Modal>
