@@ -21,6 +21,14 @@ export const SKILLS = [
     title: "iOS Development",
     level: "60%",
   },
+  {
+    title: "API Integration",
+    level: "85%",
+  },
+  {
+    title: "Software Engineering",
+    level: "75%",
+  },
   // {
   //   title: 'Desktop Application Developer',
   //   level: '75%',
@@ -31,7 +39,7 @@ export const SKILLS = [
   },
   {
     title: "Technical Engineer",
-    level: "75%",
+    level: "80%",
   },
 ];
 
