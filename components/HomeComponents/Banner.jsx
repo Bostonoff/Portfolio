@@ -33,9 +33,12 @@ const Banner = () => {
                           options={{
                             strings: [
                               "Frontend Developer",
-                              "ReactJs Developer",
+                              "Technical Engineer",
+                              "React Developer",
                               "Next.js Developer",
-                              "Layout Designer",
+                              "UI/UX Layout Designer",
+                              " iOS Developer",
+                              "Software Engineer",
                             ],
                             autoStart: true,
                             loop: true,
