@@ -66,7 +66,7 @@ const Contact = () => {
                 <span className="md:text-base">Email:</span>
                 <span className="text-LightGray text-sm">
                   <a href="mailto:muhammadboston1101@gmail.com">
-                    muhammadboston1101@gmail.com
+                    mbustonov24@gmail.com
                   </a>
                 </span>
               </div>
@@ -86,7 +86,7 @@ const Contact = () => {
               <div className="flex justify-between items-center">
                 <span className="md:text-base">Phones:</span>
                 <span className="text-LightGray text-sm">
-                  <a href="tel:+393509900997">+39 350 9900997</a> |{" "}
+                  <a href="tel:+393509900997">+39 350 8376730</a> |{" "}
                   <a href="tel:+998946022090">+998(94) 602-20-90</a>
                 </span>
               </div>

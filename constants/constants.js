@@ -19,7 +19,7 @@ export const SKILLS = [
   },
   {
     title: "iOS Development",
-    level: "60%",
+    level: "65%",
   },
   {
     title: "API Integration",
@@ -71,12 +71,12 @@ export const TECH_STACK = [
 ];
 
 export const CONTACTS = {
-  EMAIL: "muhammadboston1101@gmail.com",
-  PHONE: ["+39 350 9900997", "+998(94) 602-20-90"],
+  EMAIL: "mbustonov24@gmail.com",
+  PHONE: ["+39 350 8376730", "+998(94) 602-20-90"],
 };
 export const SOCIAL_LINKS = {
   GITHUB: "https://github.com/Bostonoff",
   TELEGRAM: "https://t.me/melloalp",
-  GMAIL: "mailto:muhammadboston1101@gmail.com",
+  GMAIL: "mailto:mbustonov24@gmail.com",
   LINKEDIN: "https://www.linkedin.com/in/mukhammad-bustonov/",
 };

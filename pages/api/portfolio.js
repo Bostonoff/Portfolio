@@ -1,29 +1,33 @@
 const portfolio = [
   {
-    id: 0,
-    projectName: "SnapUp",
-    url: "https://e-commerce-peach-kappa.vercel.app/",
-    image: "projects/img(1-1).jpg",
+    id: 22,
+    projectName: "MedDone",
+    url: "https://github.com/Bostonoff/Medication-Reminder",
+    image: "projects/img(22-22).png",
     projectDetail:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam corrupti aut veritatis, adipisci natus optio dolores cum rem? Aut perferendis fugit, eos rerum totam aspernatur iure alias temporibus ipsa perspiciatis!",
     technologiesUsed: [
       {
-        tech: "ReactJS",
+        tech: "SwiftUI",
       },
       {
-        tech: "auth0",
+        tech: "Xcode",
       },
       {
-        tech: "Redux Toolkit",
+        tech: "iOS Simulator",
       },
       {
-        tech: "Sass",
+        tech: "Swift Data",
       },
       {
-        tech: "JSON API",
+        tech: "AI Assistant",
+      },
+      {
+        tech: "Reminder",
       },
     ],
   },
+
   {
     id: 1,
     projectName: "Udevs",
@@ -42,43 +46,47 @@ const portfolio = [
     ],
   },
   {
-    id: 19,
-    projectName: "YouTube Clone",
-    url: "https://youtube-clone-two-indol.vercel.app/",
-    image: "projects/img(2-2).jpg",
+    id: 20,
+    projectName: "LingoVCT",
+    url: "https://github.com/Bostonoff/LingoVCT",
+    image: "projects/img(20-20).png",
     projectDetail:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam corrupti aut veritatis, adipisci natus optio dolores cum rem? Aut perferendis fugit, eos rerum totam aspernatur iure alias temporibus ipsa perspiciatis!",
     technologiesUsed: [
       {
-        tech: "ReactJS",
+        tech: "SwiftUI",
       },
       {
-        tech: "Material UI",
+        tech: "OpenAI API",
       },
       {
-        tech: "Rapid Api",
+        tech: "Xcode",
+      },
+      {
+        tech: "iOS Simulator",
       },
     ],
   },
   {
-    id: 2,
-    projectName: "ShoppingHub",
-    url: "https://shopping-hub-vert.vercel.app/",
-    image: "projects/img(3-3).jpg",
+    id: 21,
+    projectName: "Meetopia",
+    url: "https://github.com/Bostonoff",
+    image: "projects/img(21-21).png",
     projectDetail:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam corrupti aut veritatis, adipisci natus optio dolores cum rem? Aut perferendis fugit, eos rerum totam aspernatur iure alias temporibus ipsa perspiciatis!",
     technologiesUsed: [
       {
-        tech: "ReactJS",
+        tech: "SwiftUI",
       },
       {
-        tech: "Redux",
+        tech: "Xcode",
       },
       {
-        tech: "Sass",
+        tech: "iOS Simulator",
       },
     ],
   },
+
   {
     id: 3,
     projectName: "Shofy",
@@ -194,55 +202,62 @@ const portfolio = [
     ],
   },
   {
-    id: 9,
-    projectName: "Books",
-    url: "https://book-search-orcin.vercel.app/",
-    image: "projects/img(9-9).jpg",
+    id: 23,
+    projectName: "LabWise",
+    url: "https://github.com/Bostonoff",
+    image: "projects/img(23-23).png",
     projectDetail:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam corrupti aut veritatis, adipisci natus optio dolores cum rem? Aut perferendis fugit, eos rerum totam aspernatur iure alias temporibus ipsa perspiciatis!",
     technologiesUsed: [
       {
-        tech: "HTML",
+        tech: "SwiftUI",
       },
       {
-        tech: "CSS",
+        tech: "Xcode",
       },
       {
-        tech: "Bootstrap",
+        tech: "iOS Simulator",
       },
       {
-        tech: "JavaScript",
+        tech: "Swift Data",
       },
       {
-        tech: "API",
+        tech: "AI Assistant",
+      },
+      {
+        tech: "Reminder",
       },
     ],
   },
   {
-    id: 10,
-    projectName: "Countries",
-    url: "https://countries-757z.vercel.app/",
-    image: "projects/img(10-10).jpg",
+    id: 24,
+    projectName: "LabWise-2",
+    url: "https://github.com/Bostonoff",
+    image: "projects/img(24-24).png",
     projectDetail:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam corrupti aut veritatis, adipisci natus optio dolores cum rem? Aut perferendis fugit, eos rerum totam aspernatur iure alias temporibus ipsa perspiciatis!",
     technologiesUsed: [
       {
-        tech: "HTML",
+        tech: "SwiftUI",
       },
       {
-        tech: "CSS",
+        tech: "Xcode",
       },
       {
-        tech: "Bootstrap",
+        tech: "iOS Simulator",
       },
       {
-        tech: "JavaScript",
+        tech: "Data",
       },
       {
-        tech: "API",
+        tech: "AI Assistant",
+      },
+      {
+        tech: "ML",
       },
     ],
   },
+
   {
     id: 11,
     projectName: "Code Editor",
@@ -395,43 +410,115 @@ const portfolio = [
     ],
   },
   {
-    id: 20,
-    projectName: "LingoVCT",
-    url: "https://github.com/Bostonoff/LingoVCT",
-    image: "projects/img(20-20).png",
+    id: 19,
+    projectName: "YouTube Clone",
+    url: "https://youtube-clone-two-indol.vercel.app/",
+    image: "projects/img(2-2).jpg",
     projectDetail:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam corrupti aut veritatis, adipisci natus optio dolores cum rem? Aut perferendis fugit, eos rerum totam aspernatur iure alias temporibus ipsa perspiciatis!",
     technologiesUsed: [
       {
-        tech: "SwiftUI",
+        tech: "ReactJS",
       },
       {
-        tech: "OpenAI API",
+        tech: "Material UI",
       },
       {
-        tech: "Xcode",
-      },
-      {
-        tech: "iOS Simulator",
+        tech: "Rapid Api",
       },
     ],
   },
   {
-    id: 21,
-    projectName: "Meetopia",
-    url: "https://github.com/Bostonoff",
-    image: "projects/img(21-21).png",
+    id: 2,
+    projectName: "ShoppingHub",
+    url: "https://shopping-hub-vert.vercel.app/",
+    image: "projects/img(3-3).jpg",
     projectDetail:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam corrupti aut veritatis, adipisci natus optio dolores cum rem? Aut perferendis fugit, eos rerum totam aspernatur iure alias temporibus ipsa perspiciatis!",
     technologiesUsed: [
       {
-        tech: "SwiftUI",
+        tech: "ReactJS",
       },
       {
-        tech: "Xcode",
+        tech: "Redux",
       },
       {
-        tech: "iOS Simulator",
+        tech: "Sass",
+      },
+    ],
+  },
+  {
+    id: 0,
+    projectName: "SnapUp",
+    url: "https://e-commerce-peach-kappa.vercel.app/",
+    image: "projects/img(1-1).jpg",
+    projectDetail:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam corrupti aut veritatis, adipisci natus optio dolores cum rem? Aut perferendis fugit, eos rerum totam aspernatur iure alias temporibus ipsa perspiciatis!",
+    technologiesUsed: [
+      {
+        tech: "ReactJS",
+      },
+      {
+        tech: "auth0",
+      },
+      {
+        tech: "Redux Toolkit",
+      },
+      {
+        tech: "Sass",
+      },
+      {
+        tech: "JSON API",
+      },
+    ],
+  },
+  {
+    id: 9,
+    projectName: "Books",
+    url: "https://book-search-orcin.vercel.app/",
+    image: "projects/img(9-9).jpg",
+    projectDetail:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam corrupti aut veritatis, adipisci natus optio dolores cum rem? Aut perferendis fugit, eos rerum totam aspernatur iure alias temporibus ipsa perspiciatis!",
+    technologiesUsed: [
+      {
+        tech: "HTML",
+      },
+      {
+        tech: "CSS",
+      },
+      {
+        tech: "Bootstrap",
+      },
+      {
+        tech: "JavaScript",
+      },
+      {
+        tech: "API",
+      },
+    ],
+  },
+  {
+    id: 10,
+    projectName: "Countries",
+    url: "https://countries-757z.vercel.app/",
+    image: "projects/img(10-10).jpg",
+    projectDetail:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam corrupti aut veritatis, adipisci natus optio dolores cum rem? Aut perferendis fugit, eos rerum totam aspernatur iure alias temporibus ipsa perspiciatis!",
+    technologiesUsed: [
+      {
+        tech: "HTML",
+      },
+      {
+        tech: "CSS",
+      },
+      {
+        tech: "Bootstrap",
+      },
+      {
+        tech: "JavaScript",
+      },
+      {
+        tech: "API",
       },
     ],
   },
