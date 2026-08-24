@@ -9,7 +9,7 @@ const background = [
           "Studied various aspects of economics including microeconomics, macroeconomics, economic theories, market analysis, and financial management within the framework of the exact sciences curriculum. Additionally, delved into mathematical methods, statistics, and data analysis techniques pertinent to economic analysis. Developed proficiency in utilizing computer technologies and analytical tools during the course of study",
         year: "2016-2019",
       },
-      
+
       {
         id: 1,
         title: "Tashkent University of Information Technologies-(TUIT)",
@@ -26,7 +26,7 @@ const background = [
           "Completed part 1 Foundation course and get certificate and part 2 Successfully completed the course in frontend development at PDP Academy, achieving certification.",
         year: "2022-2023",
       },
-      { 
+      {
         id: 3,
         title: " Apple Developer Academy @Unina Federico II",
         degree: "Software Development, Mobile App Development",
@@ -106,8 +106,26 @@ const background = [
         role: "Self-employed",
         // url: "no ",
         desc: "Built and deployed several responsive web applications, improving page load speeds by 30%. Collaborated with clients to define project requirements, delivering custom solutions and achieving 89% client satisfaction. Managed code and collaborated using Git and GitHub.",
-        year: "2024 - 2024",
+        year: "2024 - 2025",
         location: "Freelance, Remote",
+      },
+      {
+        id: 7,
+        title: "Content Analyst / Data Moderation Specialist",
+        role: "Confidential IT Company (under NDA)",
+        // url: "no ",
+        desc: "Worked with hybrid ML/rule-based systems, blacklists/whitelists, CNN-based NSFW image classification, and detection of potentially harmful or policy-violating content.",
+        year: "2025 - 2025",
+        location: "Remote, from EU",
+      },
+      {
+        id: 8,
+        title: "NOC/NCC Engineer",
+        role: "Ucell (COSCOM)",
+        url: "https://ucell.uz/en",
+        desc: "Network monitoring and incident analysis, troubleshooting, system automation and optimization, process improvement, and development of tools to enhance network operations and service reliability",
+        year: "2026 - Present ",
+        location: "Tashkent, Uzbekistan",
       },
     ],
   },

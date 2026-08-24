@@ -87,7 +87,7 @@ const Contact = () => {
                 <span className="md:text-base">Phones:</span>
                 <span className="text-LightGray text-sm">
                   <a href="tel:+393509900997">+39 350 8376730</a> |{" "}
-                  <a href="tel:+998946022090">+998(94) 602-20-90</a>
+                  <a href="tel:+998946022090">+998( 93) 172-04-22</a>
                 </span>
               </div>
             </div>
